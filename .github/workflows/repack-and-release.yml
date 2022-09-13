@@ -42,7 +42,7 @@ jobs:
     - name: Copy drivers
       run: |
 #        cp $PS2SDK/iop/irx/fileXio.irx ./FILEXIO.IRX
-#        cp $PS2SDK/iop/irx/usbd.irx ./USBD.IRX
+#         cp $PS2SDK/iop/irx/usbd.irx ./USBD.IRX
 #        cp $PS2SDK/iop/irx/usbhdfsd.irx ./USBHDFSD.IRX
 
     - name: Upload artifacts
