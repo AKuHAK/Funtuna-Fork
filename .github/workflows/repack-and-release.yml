@@ -5,12 +5,12 @@ on:
   repository_dispatch:
     types: [Component_update]
   push:
-    paths:
-      - '__Release/**'
-      - 'installer/**'
-      - 'FreeMcBoot-Configurator/**'
-      - 'FreeMcBoot/**'
-      - '.github/workflows/repack-and-release.yml'
+#     paths:
+#       - '__Release/**'
+#       - 'installer/**'
+#       - 'FreeMcBoot-Configurator/**'
+#       - 'FreeMcBoot/**'
+#       - '.github/workflows/repack-and-release.yml'
 
 #  schedule:
 #   - cron: "0 15 * * 2,5"
